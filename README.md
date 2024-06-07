@@ -36,7 +36,7 @@ To run this project locally, follow these steps:
    git clone https://github.com/yourusername/today-i-learned.git
 2. **Navigate to the project directory:**
     ```bash
-    cd portfolio
+    cd today-i-learned
 3. **Install dependencies:**
     ```bash
     npm install
