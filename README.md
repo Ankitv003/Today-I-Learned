@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Today I Learned!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to "Today I Learned!", a website dedicated to sharing and voting on interesting facts from across the internet. This full-stack application is built with React and Supabase, providing an engaging and interactive platform for users to discover and contribute knowledge.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contact](#contact)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+"Today I Learned!" is a website comprising various facts posted and voted on by users all over the internet. Whether you're looking to learn something new or share your own interesting tidbits, this platform provides a space for knowledge exchange and community engagement.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React**: A JavaScript library for building user interfaces, enabling the creation of dynamic and responsive web applications.
+- **Supabase**: An open-source backend-as-a-service that provides all the tools needed to build a scalable and robust backend, including authentication, database, and real-time subscriptions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- **Post Facts**: Share interesting facts with the community.
+- **Vote**: Upvote or downvote facts based on their interestingness and accuracy.
+- **Interactive UI**: Enjoy a smooth and engaging user experience with React.
+- **Real-Time Updates**: Experience real-time updates and interactions thanks to Supabase.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run this project locally, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/today-i-learned.git
+2. **Navigate to the project directory:**
+    ```bash
+    cd portfolio
+3. **Install dependencies:**
+    ```bash
+    npm install
+4. **Set up Supabase: Configure your Supabase project and add your Supabase URL and API key to a `.env` file.**
+    ```bash
+    REACT_APP_SUPABASE_URL=your-supabase-url
+    REACT_APP_SUPABASE_KEY=your-supabase-key
 
-### `npm run eject`
+5. **Start the development server:**
+    ```bash
+    npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
+Once the development server is running, open your browser and navigate to `http://localhost:3000` to view the "Today I Learned!" website. You can start posting facts, voting, and exploring interesting content shared by others.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Feel free to reach out if you have any questions or suggestions! You can contact me via the contact form on the website or through the following channels:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Email**: ankitv78389@gmail.com
+- **LinkedIn**: https://linkedin.com/in/ankit-verma03
+- **GitHub**: https://github.com/Ankitv003
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for visiting "Today I Learned!" and contributing to our knowledge-sharing community!
