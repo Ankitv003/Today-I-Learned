@@ -40,6 +40,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .main {
@@ -53,6 +54,12 @@ body {
   .main {
     grid-template-columns: 1fr;
     height: auto;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .btn-large {
+    margin-top: 1em;
   }
 }
 
@@ -243,5 +250,6 @@ ul {
   .fact-form input,
   .fact-form select {
     width: auto;
+    font-size: 0.85rem;
   }
 }
